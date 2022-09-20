@@ -1,0 +1,14 @@
+grumphp:
+  ascii:
+    failed: ./misc/grumphp/failed.txt
+    succeeded: ./misc/grumphp/succeeded.txt
+  tasks:
+    git_commit_message:
+      allow_empty_message: false
+      enforce_no_subject_trailing_period: true
+      enforce_single_lined_subject: true
+      max_body_width: 72
+      max_subject_width: 60
+      case_insensitive: true
+      multiline: true
+    phpcs: ~
